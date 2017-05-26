@@ -1,0 +1,30 @@
+#-------------------------------------------------
+#
+# Project created by QtCreator 2016-09-29T14:51:08
+#
+#-------------------------------------------------
+
+QT       += core gui
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+TARGET = physique
+TEMPLATE = app
+
+
+SOURCES += main.cpp\
+        widget.cpp \
+        physik.cpp \
+    fenprinc.cpp \
+    syntheseeudio.cpp \
+    equation_bilan.cpp \
+    partage_electron.cpp
+
+HEADERS  += widget.h \
+         physik.h \
+    fenprinc.h \
+    syntheseeudio.h \
+    equation_bilan.h \
+    partage_electron.h
+
+FORMS    += widget.ui
